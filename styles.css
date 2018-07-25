@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Courier;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 1em;
+	color: #d66835;
+}
+
+p{
+	text-align: justify;
+	line-height: 1.4;
+	padding-bottom: 0.5em;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	padding:0 0 0 0;
+}
+
+.hero-section {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section::before {
+	background: url("https://images.pexels.com/photos/938965/pexels-photo-938965.jpeg") 50% no-repeat;
+	background-size: cover;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	opacity: 0.25;
+}
+
+.hero-section .hero-section-text {
+	max-width: 70%;
+  color: #d66835;
+}
+
+
+
+ul {
+		text-align: left;
+		line-height: 1.4;
+}
+
+
+.row {
+	margin-bottom: 3em;
+	color: #d66835;
+}
+
+@media only screen and (min-width: 500px){
+	.column {
+		float: left;
+		width: 33.33%;
+	}
+	.row {
+		margin-bottom: 12em;
+	}
+}
+
+.container {
+		font-size: 4em;
+		color: #d6683590;
+}
+
+#button-container {
+	text-align: center;
+	margin-bottom: 1em;
+}
+#signup-container {
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+.button {
+	background-color: #d6683599;
+	border: none;
+	color: white;
+	padding: 7px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #d66835;
+}

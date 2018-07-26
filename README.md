@@ -7,5 +7,5 @@ and consolidation suggestions.
 
 I was the front-end developer and I built this web-based demo for demonstration purpose.
 
-The website was initially hosted on Azure, unfortunately I used up all my credits :(,
+The website was initially hosted on Azure, unfortunately I used up all my credits,
 so I moved the whole website here instead LOL.

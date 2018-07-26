@@ -1,5 +1,6 @@
 # howhowlhy.github.io
--- MPFHero -- a web demo for FinHack 2018 - Fintech Hackathon.
+# MPFHero 
+# a web demo for FinHack 2018 - Fintech Hackathon
 
 Our team created an all-in-one platform (MPFHero) showcasing individuals 
 MPF (Mandatory Provident Fund in Hong Kong) accounts performance 

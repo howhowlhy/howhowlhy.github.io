@@ -1,4 +1,4 @@
-# howhowlhy.github.io
+# MPF-hero
 MPFHero - a web demo for FinHack 2018 - Fintech Hackathon
 
 Our team created an all-in-one platform (MPFHero) showcasing individuals 
